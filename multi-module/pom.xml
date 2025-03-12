@@ -93,6 +93,12 @@
               <artifactId>spotbugs-maven-plugin</artifactId>
               <version>4.7.3.0</version> <!-- Replaced FindBugs -->
             </plugin>
+                   <plugin>
+    <groupId>org.mortbay.jetty</groupId>
+    <artifactId>jetty-maven-plugin</artifactId>
+    <version>8.1.14.v20131031</version> <!-- Add the correct version -->
+</plugin>
+
 
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
@@ -132,6 +138,13 @@
         <version>2.2</version> <!-- Updated -->
         <scope>test</scope>
       </dependency>
+             <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit-dep</artifactId>
+    <version>4.11</version> <!-- Add the correct version -->
+    <scope>test</scope>
+</dependency>
+
 
       <dependency>
         <groupId>org.hamcrest</groupId>
